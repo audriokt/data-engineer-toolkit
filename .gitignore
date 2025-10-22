@@ -1,6 +1,8 @@
 airflow/dags/
 airflow/data/
 airflow/plugins/
+airflow/pyproject.toml
+airflow/.venv
 spark/scripts/
 kafka/scripts/
 db/sql/
