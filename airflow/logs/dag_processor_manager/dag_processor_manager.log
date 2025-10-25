@@ -1,0 +1,23 @@
+[2025-10-25T01:37:22.247+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-10-25T01:37:22.249+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-10-25T01:37:22.250+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 60 seconds
+[2025-10-25T01:37:22.251+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-10-25T01:37:22.416+0000] {manager.py:824} INFO - There are 11 files in /opt/airflow/dags
+[2025-10-25T01:37:22.589+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/dag_testing_example.py                        182  0.09s             0           0                                                   0
+/opt/airflow/dags/dynamic_dag_file.py                                                  0           0                                                   0
+/opt/airflow/dags/dynamic_dag_variable.py                                              0           0                                                   0
+/opt/airflow/dags/dynamic_task_file.py                                                 0           0                                                   0
+/opt/airflow/dags/dynamic_task_variable.py                                             0           0                                                   0
+/opt/airflow/dags/xcom_with_current_context.py                                         0           0                                                   0
+/opt/airflow/dags/xcom_with_return_and_current_context.py                              0           0                                                   0
+/opt/airflow/dags/xcom_with_return_and_template_reference.py    185  0.03s             0           0                                                   0
+/opt/airflow/dags/xcom_with_return_direct_param.py                                     0           0                                                   0
+/opt/airflow/dags/xcom_with_return_temp_var.py                                         0           0                                                   0
+/opt/airflow/dags/tests/test_dag_integrity.py                                          0           0                                                   0
+================================================================================

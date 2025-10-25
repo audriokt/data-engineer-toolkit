@@ -1,0 +1,5 @@
+[2025-10-25T01:37:23.481+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/tests/test_dag_integrity.py
+[2025-10-25T01:37:23.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tests/test_dag_integrity.py for tasks to queue
+[2025-10-25T01:37:23.485+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tests/test_dag_integrity.py
+[2025-10-25T01:37:23.500+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tests/test_dag_integrity.py
+[2025-10-25T01:37:23.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tests/test_dag_integrity.py took 0.047 seconds

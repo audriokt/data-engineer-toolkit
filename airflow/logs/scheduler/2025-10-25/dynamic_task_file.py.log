@@ -1,0 +1,15 @@
+[2025-10-25T01:37:23.661+0000] {processor.py:186} INFO - Started process (PID=225) to work on /opt/airflow/dags/dynamic_task_file.py
+[2025-10-25T01:37:23.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dynamic_task_file.py for tasks to queue
+[2025-10-25T01:37:23.664+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_task_file.py
+[2025-10-25T01:37:23.688+0000] {processor.py:925} INFO - DAG(s) 'dynamic_task_file' retrieved from /opt/airflow/dags/dynamic_task_file.py
+[2025-10-25T01:37:23.814+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.814+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:dynamic_task_file
+[2025-10-25T01:37:23.826+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.826+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:dynamic_task_file
+[2025-10-25T01:37:23.836+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.835+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:dynamic_task_file
+[2025-10-25T01:37:23.846+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.846+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:dynamic_task_file
+[2025-10-25T01:37:23.854+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.854+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:dynamic_task_file
+[2025-10-25T01:37:23.861+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.861+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:dynamic_task_file
+[2025-10-25T01:37:23.868+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.868+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:dynamic_task_file
+[2025-10-25T01:37:23.869+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:37:23.883+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.883+0000] {dag.py:3262} INFO - Creating ORM DAG for dynamic_task_file
+[2025-10-25T01:37:23.894+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.894+0000] {dag.py:4180} INFO - Setting next_dagrun for dynamic_task_file to None, run_after=None
+[2025-10-25T01:37:23.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dynamic_task_file.py took 0.257 seconds

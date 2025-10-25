@@ -1,0 +1,15 @@
+[2025-10-25T01:37:22.529+0000] {processor.py:186} INFO - Started process (PID=182) to work on /opt/airflow/dags/dag_testing_example.py
+[2025-10-25T01:37:22.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_testing_example.py for tasks to queue
+[2025-10-25T01:37:22.536+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:22.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_testing_example.py
+[2025-10-25T01:37:22.559+0000] {processor.py:925} INFO - DAG(s) 'dag_testing_example' retrieved from /opt/airflow/dags/dag_testing_example.py
+[2025-10-25T01:37:22.707+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:22.707+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:dag_testing_example
+[2025-10-25T01:37:22.718+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:22.717+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:dag_testing_example
+[2025-10-25T01:37:22.725+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:22.725+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:dag_testing_example
+[2025-10-25T01:37:22.736+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:22.736+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:dag_testing_example
+[2025-10-25T01:37:22.744+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:22.743+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:dag_testing_example
+[2025-10-25T01:37:22.752+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:22.752+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:dag_testing_example
+[2025-10-25T01:37:22.759+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:22.758+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:dag_testing_example
+[2025-10-25T01:37:22.760+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:22.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:37:22.772+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:22.772+0000] {dag.py:3262} INFO - Creating ORM DAG for dag_testing_example
+[2025-10-25T01:37:22.773+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:22.773+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_testing_example to None, run_after=None
+[2025-10-25T01:37:22.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_testing_example.py took 0.281 seconds

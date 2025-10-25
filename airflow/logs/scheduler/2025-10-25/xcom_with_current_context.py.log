@@ -1,0 +1,15 @@
+[2025-10-25T01:37:23.240+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:37:23.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_current_context.py for tasks to queue
+[2025-10-25T01:37:23.243+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:37:23.261+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_current_context' retrieved from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:37:23.392+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.391+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:xcom_with_current_context
+[2025-10-25T01:37:23.403+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.403+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:xcom_with_current_context
+[2025-10-25T01:37:23.411+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.410+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:xcom_with_current_context
+[2025-10-25T01:37:23.420+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.420+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:xcom_with_current_context
+[2025-10-25T01:37:23.426+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.426+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:xcom_with_current_context
+[2025-10-25T01:37:23.433+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.433+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:xcom_with_current_context
+[2025-10-25T01:37:23.442+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.441+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:xcom_with_current_context
+[2025-10-25T01:37:23.442+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:37:23.454+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.454+0000] {dag.py:3262} INFO - Creating ORM DAG for xcom_with_current_context
+[2025-10-25T01:37:23.465+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.464+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_current_context to None, run_after=None
+[2025-10-25T01:37:23.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_current_context.py took 0.260 seconds
