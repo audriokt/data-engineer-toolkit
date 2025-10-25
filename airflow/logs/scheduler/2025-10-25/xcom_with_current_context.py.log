@@ -13,3 +13,66 @@
 [2025-10-25T01:37:23.454+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.454+0000] {dag.py:3262} INFO - Creating ORM DAG for xcom_with_current_context
 [2025-10-25T01:37:23.465+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.464+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_current_context to None, run_after=None
 [2025-10-25T01:37:23.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_current_context.py took 0.260 seconds
+[2025-10-25T01:37:54.031+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:37:54.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_current_context.py for tasks to queue
+[2025-10-25T01:37:54.035+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:54.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:37:54.059+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_current_context' retrieved from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:37:54.092+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:54.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:37:54.118+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:54.117+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_current_context to None, run_after=None
+[2025-10-25T01:37:54.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_current_context.py took 0.117 seconds
+[2025-10-25T01:38:25.180+0000] {processor.py:186} INFO - Started process (PID=317) to work on /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:38:25.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_current_context.py for tasks to queue
+[2025-10-25T01:38:25.194+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:25.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:38:25.265+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_current_context' retrieved from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:38:25.373+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:25.373+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:38:25.471+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:25.471+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_current_context to None, run_after=None
+[2025-10-25T01:38:25.546+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_current_context.py took 0.388 seconds
+[2025-10-25T01:38:55.908+0000] {processor.py:186} INFO - Started process (PID=372) to work on /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:38:55.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_current_context.py for tasks to queue
+[2025-10-25T01:38:55.912+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:55.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:38:55.931+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_current_context' retrieved from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:38:55.964+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:55.963+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:38:55.984+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:55.983+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_current_context to None, run_after=None
+[2025-10-25T01:38:56.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_current_context.py took 0.102 seconds
+[2025-10-25T01:39:26.375+0000] {processor.py:186} INFO - Started process (PID=430) to work on /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:39:26.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_current_context.py for tasks to queue
+[2025-10-25T01:39:26.379+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:26.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:39:26.405+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_current_context' retrieved from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:39:26.450+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:26.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:39:26.474+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:26.474+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_current_context to None, run_after=None
+[2025-10-25T01:39:26.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_current_context.py took 0.129 seconds
+[2025-10-25T01:39:57.376+0000] {processor.py:186} INFO - Started process (PID=485) to work on /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:39:57.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_current_context.py for tasks to queue
+[2025-10-25T01:39:57.394+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:57.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:39:57.470+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_current_context' retrieved from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:39:57.557+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:57.557+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:39:57.620+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:57.619+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_current_context to None, run_after=None
+[2025-10-25T01:39:57.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_current_context.py took 0.295 seconds
+[2025-10-25T01:40:27.897+0000] {processor.py:186} INFO - Started process (PID=540) to work on /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:40:27.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_current_context.py for tasks to queue
+[2025-10-25T01:40:27.901+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:27.900+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:40:27.917+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_current_context' retrieved from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:40:27.948+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:27.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:40:27.975+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:27.975+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_current_context to None, run_after=None
+[2025-10-25T01:40:27.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_current_context.py took 0.108 seconds
+[2025-10-25T01:40:58.630+0000] {processor.py:186} INFO - Started process (PID=595) to work on /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:40:58.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_current_context.py for tasks to queue
+[2025-10-25T01:40:58.634+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:58.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:40:58.652+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_current_context' retrieved from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:40:58.682+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:58.681+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:40:58.704+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:58.704+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_current_context to None, run_after=None
+[2025-10-25T01:40:58.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_current_context.py took 0.100 seconds
+[2025-10-25T01:41:28.962+0000] {processor.py:186} INFO - Started process (PID=650) to work on /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:41:28.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_current_context.py for tasks to queue
+[2025-10-25T01:41:28.968+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:28.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:41:28.988+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_current_context' retrieved from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:41:29.018+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:29.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:41:29.038+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:29.038+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_current_context to None, run_after=None
+[2025-10-25T01:41:29.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_current_context.py took 0.104 seconds
+[2025-10-25T01:41:59.216+0000] {processor.py:186} INFO - Started process (PID=705) to work on /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:41:59.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_current_context.py for tasks to queue
+[2025-10-25T01:41:59.220+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:59.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:41:59.241+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_current_context' retrieved from /opt/airflow/dags/xcom_with_current_context.py
+[2025-10-25T01:41:59.275+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:59.275+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:41:59.297+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:59.297+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_current_context to None, run_after=None
+[2025-10-25T01:41:59.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_current_context.py took 0.115 seconds

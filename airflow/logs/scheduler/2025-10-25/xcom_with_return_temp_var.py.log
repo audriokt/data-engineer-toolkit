@@ -13,3 +13,66 @@
 [2025-10-25T01:37:23.166+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.165+0000] {dag.py:3262} INFO - Creating ORM DAG for xcom_with_return_temp_var
 [2025-10-25T01:37:23.177+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:23.177+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_temp_var to None, run_after=None
 [2025-10-25T01:37:23.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_temp_var.py took 0.307 seconds
+[2025-10-25T01:37:53.842+0000] {processor.py:186} INFO - Started process (PID=252) to work on /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:37:53.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_return_temp_var.py for tasks to queue
+[2025-10-25T01:37:53.846+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:53.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:37:53.873+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_return_temp_var' retrieved from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:37:53.912+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:53.912+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:37:53.938+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:37:53.938+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_temp_var to None, run_after=None
+[2025-10-25T01:37:53.963+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_temp_var.py took 0.128 seconds
+[2025-10-25T01:38:24.653+0000] {processor.py:186} INFO - Started process (PID=307) to work on /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:38:24.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_return_temp_var.py for tasks to queue
+[2025-10-25T01:38:24.667+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:24.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:38:24.737+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_return_temp_var' retrieved from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:38:24.829+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:24.829+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:38:24.908+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:24.908+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_temp_var to None, run_after=None
+[2025-10-25T01:38:25.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_temp_var.py took 0.376 seconds
+[2025-10-25T01:38:55.766+0000] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:38:55.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_return_temp_var.py for tasks to queue
+[2025-10-25T01:38:55.770+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:55.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:38:55.792+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_return_temp_var' retrieved from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:38:55.823+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:55.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:38:55.844+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:38:55.843+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_temp_var to None, run_after=None
+[2025-10-25T01:38:55.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_temp_var.py took 0.103 seconds
+[2025-10-25T01:39:26.214+0000] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:39:26.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_return_temp_var.py for tasks to queue
+[2025-10-25T01:39:26.217+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:26.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:39:26.238+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_return_temp_var' retrieved from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:39:26.275+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:26.275+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:39:26.299+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:26.298+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_temp_var to None, run_after=None
+[2025-10-25T01:39:26.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_temp_var.py took 0.120 seconds
+[2025-10-25T01:39:57.062+0000] {processor.py:186} INFO - Started process (PID=475) to work on /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:39:57.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_return_temp_var.py for tasks to queue
+[2025-10-25T01:39:57.071+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:57.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:39:57.118+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_return_temp_var' retrieved from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:39:57.179+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:57.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:39:57.223+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:39:57.223+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_temp_var to None, run_after=None
+[2025-10-25T01:39:57.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_temp_var.py took 0.212 seconds
+[2025-10-25T01:40:27.746+0000] {processor.py:186} INFO - Started process (PID=530) to work on /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:40:27.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_return_temp_var.py for tasks to queue
+[2025-10-25T01:40:27.751+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:27.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:40:27.776+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_return_temp_var' retrieved from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:40:27.809+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:27.809+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:40:27.835+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:27.835+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_temp_var to None, run_after=None
+[2025-10-25T01:40:27.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_temp_var.py took 0.117 seconds
+[2025-10-25T01:40:58.483+0000] {processor.py:186} INFO - Started process (PID=585) to work on /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:40:58.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_return_temp_var.py for tasks to queue
+[2025-10-25T01:40:58.486+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:58.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:40:58.506+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_return_temp_var' retrieved from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:40:58.535+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:58.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:40:58.556+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:40:58.556+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_temp_var to None, run_after=None
+[2025-10-25T01:40:58.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_temp_var.py took 0.100 seconds
+[2025-10-25T01:41:28.806+0000] {processor.py:186} INFO - Started process (PID=640) to work on /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:41:28.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_return_temp_var.py for tasks to queue
+[2025-10-25T01:41:28.809+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:28.809+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:41:28.829+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_return_temp_var' retrieved from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:41:28.866+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:28.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:41:28.888+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:28.888+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_temp_var to None, run_after=None
+[2025-10-25T01:41:28.907+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_temp_var.py took 0.107 seconds
+[2025-10-25T01:41:59.036+0000] {processor.py:186} INFO - Started process (PID=695) to work on /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:41:59.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_return_temp_var.py for tasks to queue
+[2025-10-25T01:41:59.040+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:59.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:41:59.062+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_return_temp_var' retrieved from /opt/airflow/dags/xcom_with_return_temp_var.py
+[2025-10-25T01:41:59.096+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:59.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:41:59.119+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:59.119+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_temp_var to None, run_after=None
+[2025-10-25T01:41:59.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_temp_var.py took 0.116 seconds
