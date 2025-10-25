@@ -130,3 +130,13 @@
 [2025-10-25T01:41:59.432+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:59.431+0000] {dag.py:4180} INFO - Setting next_dagrun for dynamic_dag_file_el_table_orders to None, run_after=None
 [2025-10-25T01:41:59.433+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:59.433+0000] {dag.py:4180} INFO - Setting next_dagrun for dynamic_dag_file_el_table_products to None, run_after=None
 [2025-10-25T01:41:59.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dynamic_dag_file.py took 0.145 seconds
+[2025-10-25T01:42:30.003+0000] {processor.py:186} INFO - Started process (PID=768) to work on /opt/airflow/dags/dynamic_dag_file.py
+[2025-10-25T01:42:30.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dynamic_dag_file.py for tasks to queue
+[2025-10-25T01:42:30.007+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:42:30.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dynamic_dag_file.py
+[2025-10-25T01:42:30.032+0000] {processor.py:925} INFO - DAG(s) 'dynamic_dag_file_el_table_orders', 'dynamic_dag_file_el_table_order_details', 'dynamic_dag_file_el_table_products', 'dynamic_dag_file_el_table_customers' retrieved from /opt/airflow/dags/dynamic_dag_file.py
+[2025-10-25T01:42:30.075+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:42:30.075+0000] {dag.py:3239} INFO - Sync 4 DAGs
+[2025-10-25T01:42:30.101+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:42:30.101+0000] {dag.py:4180} INFO - Setting next_dagrun for dynamic_dag_file_el_table_customers to None, run_after=None
+[2025-10-25T01:42:30.105+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:42:30.104+0000] {dag.py:4180} INFO - Setting next_dagrun for dynamic_dag_file_el_table_order_details to None, run_after=None
+[2025-10-25T01:42:30.106+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:42:30.106+0000] {dag.py:4180} INFO - Setting next_dagrun for dynamic_dag_file_el_table_orders to None, run_after=None
+[2025-10-25T01:42:30.108+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:42:30.108+0000] {dag.py:4180} INFO - Setting next_dagrun for dynamic_dag_file_el_table_products to None, run_after=None
+[2025-10-25T01:42:30.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dynamic_dag_file.py took 0.131 seconds

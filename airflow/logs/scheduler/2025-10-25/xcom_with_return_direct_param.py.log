@@ -76,3 +76,10 @@
 [2025-10-25T01:41:59.106+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:59.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-10-25T01:41:59.134+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:41:59.133+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_direct_param to None, run_after=None
 [2025-10-25T01:41:59.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_direct_param.py took 0.125 seconds
+[2025-10-25T01:42:29.687+0000] {processor.py:186} INFO - Started process (PID=753) to work on /opt/airflow/dags/xcom_with_return_direct_param.py
+[2025-10-25T01:42:29.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/xcom_with_return_direct_param.py for tasks to queue
+[2025-10-25T01:42:29.691+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:42:29.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_with_return_direct_param.py
+[2025-10-25T01:42:29.712+0000] {processor.py:925} INFO - DAG(s) 'xcom_with_return_direct_param' retrieved from /opt/airflow/dags/xcom_with_return_direct_param.py
+[2025-10-25T01:42:29.745+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:42:29.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-25T01:42:29.768+0000] {logging_mixin.py:190} INFO - [2025-10-25T01:42:29.767+0000] {dag.py:4180} INFO - Setting next_dagrun for xcom_with_return_direct_param to None, run_after=None
+[2025-10-25T01:42:29.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/xcom_with_return_direct_param.py took 0.108 seconds
