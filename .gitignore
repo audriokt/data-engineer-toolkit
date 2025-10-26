@@ -1,8 +1,8 @@
 airflow/dags/
-airflow/data/
-airflow/plugins/
 airflow/logs/
 airflow/.venv
+airflow/airflow.cfg
+airflow/airflow.db
 airflow/pyproject.toml
 airflow/uv.lock
 spark/scripts/
