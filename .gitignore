@@ -1,4 +1,3 @@
-airflow/dags/
 airflow/logs/
 airflow/.venv
 airflow/airflow.cfg
@@ -8,3 +7,4 @@ airflow/uv.lock
 spark/scripts/
 kafka/scripts/
 db/sql/
+airflow/dags/__pycache__/
