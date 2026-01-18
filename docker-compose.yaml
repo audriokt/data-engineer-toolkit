@@ -6,6 +6,8 @@ x-airflow-common:
     - ./airflow/dags:/opt/airflow/dags
     - ./airflow/data:/opt/airflow/data
     - ./airflow/plugins:/opt/airflow/plugins
+    - ./airflow/logs:/opt/airflow/logs
+    - ./airfflow/tests:/opt/airflow/tests
   user: "${AIRFLOW_UID:-50000}:0"
   env_file:
     - ./airflow/.env
