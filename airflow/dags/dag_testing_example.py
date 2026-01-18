@@ -18,4 +18,4 @@ with DAG("dag_testing_example", start_date=datetime(2024,1,1), schedule=None) as
         params={'data': ['apple', 'banana']}
     )
 
-    start_task >> transform >> end_task
+    start_task >> transform >> end_task  
